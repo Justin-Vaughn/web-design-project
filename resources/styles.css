@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+header h1, .container {
+    margin: 20px 200px 20px 200px;
+}
+
+header h1 {
+    font-size: xx-large;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container div {
+    margin-top: 2px;
+}
+
+.color-container {
+    height: 150px;
+    display: inline-flex;
+}
+
+.fonts-container {
+    display: inline-flex;
+}
+
+body h2 {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.color-container p {
+    text-align: center;
+    margin: auto;
+}
+
+#teal {
+    background-color: #00766C;
+    width: 33%;
+    color: white;
+    overflow: hidden;
+}
+
+#tropical-pear {
+    background-color: #26A69A;
+    width: 33%;
+    color: black;
+}
+
+#sd-green {
+    background-color: #64D8CB;
+    width: 33%;
+    color: black;
+}
+
+#cream {
+    background-color: #ffffff;
+    width: 50%;
+    color: #262626;
+}
+
+#pencil-lead {
+    background-color: #262626;
+    width: 49%;
+    color: #ffffff;
+}
+
+#nunito {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 50px 0 10px;
+}
+
+#open {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 50px 0;
+}
+
+#work {
+    font-family: "Work Sans", sans-serif;
+    margin: 0 50px 0;
+}
+
+.fonts-container nunito, open, work {
+    padding: 10px;
+}
+
+em {
+    font-style: none;
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.text-styles {
+    margin: 25px;
+}
+
+.text-styles h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.text-styles h2 {
+    Font-weight: 500;
+    Font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-styles h3 {
+    Font-weight: 400;
+    Font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.styles {
+    display: inline-flex;
+}
